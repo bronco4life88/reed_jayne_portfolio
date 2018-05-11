@@ -1,0 +1,272 @@
+/* ---Container Div Style----*/
+
+.Container{
+	max-width: 70%;
+	margin:0 auto;
+	}
+/* ---Header Div Style----*/
+
+.header{
+	min-width: 100%;
+	display: block;
+	border-bottom: 3px solid #7d97ad;
+	height: 115px;
+}
+
+.header_logo{
+    position: relative;
+    width: 100px;
+}
+
+.name{
+	position: relative;
+    text-align: right;
+    letter-spacing: 5px;
+    bottom: 103px;
+    font-size: 44px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px;
+    right: -3px;
+    color:#2d3c49;
+}
+
+ .job_title{
+	position: relative;
+    margin: 0px;
+    text-align: right;
+    letter-spacing: 3px;
+    bottom: 88px;
+    font-family: 'Bitter',sans-serif;
+    color:#2d3c49;
+}
+
+/* ---Main Div Style----*/
+
+.main{
+	width: 100%;
+    margin-top: 15px;
+    position: relative;
+}
+
+.main_image{
+width: 100%;
+	height: 400px;
+}
+
+/* ---Title styling----*/
+.title_work{
+	position: relative;
+    width: 40%;
+}
+.work{
+	color: #7d97ad;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 30px;
+    padding-left: 12px;
+}
+
+/* ---Footer Div Style----*/
+
+.footer{
+    position: relative;
+    width: 100%;
+    text-align: center;
+
+}
+
+.box_1, .box_2, .box_3{
+    position: relative;
+    padding-right: 20px;
+    width: 30%;
+    display: inline-block;
+}
+
+.project_img{
+    position: relative;
+    width: 97%;
+    height: 60%;
+}
+
+.title_box{
+    color: #2d3c49;
+    font-size: 32px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.work_link{
+    text-decoration: none;
+    color: #2d3c49;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 21px;
+}
+
+.work_link:hover{
+   color: #02b3e4;
+}
+
+.work_link_3{
+	text-decoration: none;
+    color: #2d3c49;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 21px;
+}
+
+.work_link_3:hover{
+   color: #02b3e4;
+}
+
+
+
+
+
+
+/* Nexus 5 Portrait mode*/
+
+@media screen and  (min-width:310px) and (max-width: 510px)  {
+ 	.container{
+ 		max-width:100%;
+ 	}
+
+ 	.header{
+ 		height: 90px;
+ 	}
+ 	.header_logo{
+ 		width:80px;
+ 		top:3px;
+ 	}
+
+ 	.header .name{
+    bottom: 75px;
+    font-size: 25px;
+	}
+
+	.header .job_title{
+    bottom: 70px;
+    font-size: 12px;
+	}
+
+	.title_work{
+	width: 100%;
+    text-align: center;
+	}
+
+	.work{
+	font-size:22px;
+	padding-left: 0px;
+	}
+	.box_1, .box_2, .box_3{
+	position: relative;
+    padding-right: 20px;
+    width: 50%;
+    display: inline;
+	}
+
+	.project_img{
+		margin-top: 15px;
+		width: 50%;
+		margin-top: 10px;
+	}
+
+	.box_3 {
+		margin:0px;
+	}
+
+	.work_link_3{
+	text-decoration: none;
+    color: #2d3c49;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 21px;
+    margin-left: 15px;
+	}
+
+	.work_link:hover{
+   color: #02b3e4;
+	}
+
+ }
+
+/* ---Nexus 5 landscape mode----*/
+
+@media screen and  (min-width: 511px) and (max-width:738px)  {
+	.header .name {
+		font-size:33px;
+	}
+
+	.main_image{
+		height:300px;
+	}
+
+		.project_img{
+		margin-top: 15px;
+		width: 50%;
+		margin-top: 10px;
+	}
+
+	.title_work{
+	width: 100%;
+    text-align: center;
+	}
+
+	.work{
+	font-size:22px;
+	padding-left: 0px;
+	}
+
+	.work_link{
+	margin-left: -16px;
+	}
+
+
+
+	.work_link_3{
+	text-decoration: none;
+    color: #2d3c49;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 21px;
+    margin-left: 53px;
+	}
+
+	.work_link:hover{
+   color: #02b3e4;
+	}
+
+	.box_1,.box_2,.box_3{
+		margin-right:50px;
+		display: initial;
+	}
+
+
+
+
+
+
+}
+
+/* ---Ipad----*/
+
+@media screen and  (min-width: 739px) and  (max-width:987px)  {
+
+	.title_work {
+    position: relative;
+    width: 100%;
+    text-align: center;
+	}
+
+	.box_3{
+		margin-top: 35px;
+	}
+
+	.work_link{
+		font-size: 12px;
+	}
+
+	.work_link_3{
+		font-size: 12px;
+	}
+
+}
